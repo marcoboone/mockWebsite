@@ -15,17 +15,17 @@ export const Projects = () => {
         </div>
         <ProjectCard
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi amet sunt eius commodi fuga quis itaque officiis placeat...."
-          imageUrl="/Images/projectsImageA.JPG"
+          imageUrl="/Images/projectsImageA.jpg"
           title="PROJECT 1"
         />
          <ProjectCard
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi amet sunt eius commodi fuga quis itaque officiis placeat...."
-          imageUrl="/Images/projectsImageB.JPG"
+          imageUrl="/Images/projectsImageB.jpg"
           title="PROJECT 1"
         />
          <ProjectCard
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi amet sunt eius commodi fuga quis itaque officiis placeat...."
-          imageUrl="/Images/projectsImageC.JPG"
+          imageUrl="/Images/projectsImageC.jpg"
           title="PROJECT 1"
         />
       </div>
