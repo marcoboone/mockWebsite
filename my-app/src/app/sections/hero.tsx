@@ -4,7 +4,7 @@ export const Hero = () => {
   return (
     <div className="relative w-full h-[100vh]">
       <Image
-        src="/Images/heroImage.JPG"
+        src="/Images/heroImage.jpg"
         layout="fill"
         objectFit="cover"
         alt="Image"

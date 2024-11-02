@@ -7,8 +7,8 @@ import Navbar from '@/app/navbar'
 const poppins = Poppins({weight: ['100', '200', '400', '600', '800'],  subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Pantanal Partnership | University of Michigan',
-  description: 'A multi-disciplinary student project team at the University of Michigan that focuses projects around sustainable technology, education, and health in the Pantanal region of Brazil.',
+  title: 'ROBOT STUDIO | University of Michigan',
+  description: 'Robotics Lab at the University of Michigan interested in human-robot interaction.',
 }
 
 export default function RootLayout({
