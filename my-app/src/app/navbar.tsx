@@ -78,7 +78,7 @@ const Navbar = () => {
           R<span className = "text-blue-500">O</span>BOT STUDIO
         </Link>
         <div id="navbar-links" className={"max-md:hidden md:block text-sm"}>
-          <NavItem href={"/"}>PROJECTS</NavItem>
+          <NavItem href={"/projects"}>PROJECTS</NavItem>
           <NavItem href={"/"}>PUBLICATIONS</NavItem>
           <NavItem href={"/people"}>PEOPLE</NavItem>
           <NavItem href={"/"}>NEWS</NavItem>
@@ -100,7 +100,7 @@ const Navbar = () => {
           }
         >
           <div className="flex flex-col pt-[15vh] px-6 gap-8 text-lg text-black">
-            <NavItem clickFunction={resetNav} href={"/"}>
+            <NavItem clickFunction={resetNav} href={"/projects"}>
               PROJECTS
             </NavItem>
             <NavItem clickFunction={resetNav} href={"/"}>
