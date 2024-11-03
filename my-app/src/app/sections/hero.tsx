@@ -9,7 +9,7 @@ export const Hero = () => {
         objectFit="cover"
         alt="Image"
       ></Image>
-      <div className="absolute w-full h-full bg-black/60 backdrop-blur-sm"></div>
+      <div className="absolute w-full h-full bg-black/75 "></div>
       <div className="absolute w-full h-full squeezetainer flex items-center">
         <div className="flex flex-col gap-4 lg:w-[70%]">
           <h1 className="text-white text-2xl lg:text-5xl font-bold">

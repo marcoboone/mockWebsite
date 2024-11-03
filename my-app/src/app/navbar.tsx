@@ -80,7 +80,7 @@ const Navbar = () => {
         <div id="navbar-links" className={"max-md:hidden md:block text-sm"}>
           <NavItem href={"/"}>PROJECTS</NavItem>
           <NavItem href={"/"}>PUBLICATIONS</NavItem>
-          <NavItem href={"/"}>PEOPLE</NavItem>
+          <NavItem href={"/people"}>PEOPLE</NavItem>
           <NavItem href={"/"}>NEWS</NavItem>
           <NavItem href={"/"}>OPPORTUNITIES</NavItem>
         </div>

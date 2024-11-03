@@ -1,5 +1,8 @@
 import Image from "next/image";
 import React from "react";
+import { GrDocumentPdf } from "react-icons/gr";
+import { GrPlay } from "react-icons/gr";
+import { GrCode } from "react-icons/gr";
 
 interface ProjectCardProps {
   title: string;
@@ -25,10 +28,13 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ description, imageUrl,
           {description}
         </span>
       </div>
-      <div className="absolute w-full h-full flex  items-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 p-6 md:p-20">
-        <span className="text-white text-base lg:text-3xl block p-10">
-          Read More
+      <div className="absolute w-full h-full flex  items-center gap-6 opacity-0 group-hover:opacity-100 transition-opacity duration-200 p-6 md:p-20">
+        <span className="text-white text-base lg:text-3xl block">
+          Learn More:
         </span>
+        <GrDocumentPdf className="text-white text-2xl hover:scale-[1.15] transition-transform ease-in-out hover:cursor-pointer" />
+        <GrPlay  className="text-white text-2xl hover:scale-[1.15] transition-transform ease-in-out hover:cursor-pointer"/>
+        <GrCode className = "text-white text-2xl hover:scale-[1.15] transition-transform ease-in-out hover:cursor-pointer"/>
       </div>
     </div>
   );
