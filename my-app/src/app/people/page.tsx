@@ -3,6 +3,7 @@ import PeopleCard from "@/app/components/peopleCard";
 import { GrMailOption } from "react-icons/gr";
 import { FaGoogleScholar } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -44,9 +45,9 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-4">
             <span className="text-base font-bold">Links</span>
-              <a href="/"><GrMailOption className="text-black inline text-xl hover:scale-[1.15] transition-transform ease-in-out hover:cursor-pointer"  /> email@umich.edu</a>
-              <a href="/"><FaGoogleScholar className="text-black text-xl hover:scale-[1.15] transition-transform ease-in-out hover:cursor-pointer inline" /> Google Scholar</a>
-              <a href="/"><FaXTwitter className="text-black text-xl hover:scale-[1.15] transition-transform ease-in-out hover:cursor-pointer inline" />@account</a>
+              <Link href="/"><GrMailOption className="text-black inline text-xl hover:scale-[1.15] transition-transform ease-in-out hover:cursor-pointer"  /> email@umich.edu</Link>
+              <Link href="/"><FaGoogleScholar className="text-black text-xl hover:scale-[1.15] transition-transform ease-in-out hover:cursor-pointer inline" /> Google Scholar</Link>
+              <Link href="/"><FaXTwitter className="text-black text-xl hover:scale-[1.15] transition-transform ease-in-out hover:cursor-pointer inline" />@account</Link>
             </div>
           </div>
           
