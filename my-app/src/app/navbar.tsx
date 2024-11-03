@@ -106,7 +106,7 @@ const Navbar = () => {
             <NavItem clickFunction={resetNav} href={"/"}>
               PUBLICATIONS
             </NavItem>
-            <NavItem clickFunction={resetNav} href={"/"}>
+            <NavItem clickFunction={resetNav} href={"/people"}>
               PEOPLE
             </NavItem>
             <NavItem clickFunction={resetNav} href={"/"}>
