@@ -13,7 +13,7 @@ export const Hero = () => {
       <div className="absolute w-full h-full squeezetainer flex items-center">
         <div className="flex flex-col gap-4 lg:w-[70%]">
           <h1 className="text-white text-2xl lg:text-5xl font-bold">
-            ENVISION. ENGINEER. EXECUTE.
+            ROBOT STUDIO
           </h1>
           <p className="text-white text-sm lg:text-2xl">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique
