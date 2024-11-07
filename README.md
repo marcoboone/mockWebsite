@@ -25,7 +25,7 @@ To install and run this project locally, follow these steps:
     ```
 2. Navigate to the project directory:
     ```bash
-    cd mockWebsite
+    cd my-app
     ```
 3. Open `index.html` in your preferred web browser.
 
